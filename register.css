@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+html{
+    width: 100%;
+}
+
+body {
+   height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo 2', cursive;
+    background: linear-gradient(45deg, rgb(233,232,228),rgb(244,243,236));
+}
+
+
+.content{
+    position: relative;
+}
+
+
+.no-padding{
+    margin:0!important;
+    padding:0!important;
+}
+
+.container {
+    width: 350px;
+    height: 100%;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: #212932;
+    overflow: hidden;
+    box-shadow: 0px 20px 50px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: relative;
+}
+.create{
+    background-color: #FEFF00;
+    color: black;
+    padding: 10px 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.image{
+   width: 85px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    position: relative;
+    border: 1px solid #fff220;
+    box-shadow: 0px 0px 15px white;
+    padding: 6px;
+}
+.field{
+    background-color: #ff000000;
+    border: 1px solid #feff00;
+    margin-bottom: -8px;
+
+}
+
+.small-icon{
+    position: absolute;
+    width: 35px;
+    top: 50px;
+    left: -2px;
+}
+.choose-image{
+        color: #F0FF00;
+    position: absolute;
+    font-size: 12px;
+    top: 80px;
+    left: -2px;
+}
+.cstm-btn{
+    font-weight: 700;
+    background-color: #feff00;
+    color: black;
+    border: 1px solid #feff00;
+    width: 100%;
+    border-radius: 18px;
+    padding: 7px 10px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+.icon-bar{
+    background-color: #19202C;
+        padding: 8px 10px;
+}
+.select-text{
+    color: #6C757D;
+    font-weight: 500;
+}
+.select-icon{
+    width: 30px;
+    margin-left: 122px;
+}
+.select-icon-2{
+    width: 30px;
+    margin-left: 117px;
+}
+.select-icon-3{
+    width: 30px;
+    margin-left: 137px;
+}
+
+
+.bottom{
+     position: relative;
+    background-color: black;
+    z-index: 5;
+    padding: 2px 10px;
+    margin-top: 5vh;
+}
+.form{
+    background-color: #171a1d;
+    padding: 15px 5px;
+    margin: 15px;
+    border-radius: 12px;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 700;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #feff00!important;
+    border: 0;
+    width: 100%;
+}
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #feff00!important;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    width: 100%;
+}
+.dropdown-item:hover{
+    background-color: white!important;
+}
