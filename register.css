@@ -155,3 +155,37 @@ body {
 .dropdown-item:hover{
     background-color: white!important;
 }
+
+
+@media (min-width: 279px) and (max-width:285px){
+   .select-icon {
+    width: 30px;
+    margin-left: 52px;
+}
+
+.select-icon-2 {
+    width: 30px;
+    margin-left: 47px;
+}
+.select-icon-3 {
+    width: 30px;
+    margin-left: 66px;
+}
+
+
+}
+
+@media (min-width: 319px) and (max-width:330px){
+.select-icon {
+    width: 30px;
+    margin-left: 92px;
+}
+.select-icon-2 {
+    width: 30px;
+    margin-left: 87px;
+}
+.select-icon-3 {
+    width: 30px;
+    margin-left: 106px;
+}
+}
